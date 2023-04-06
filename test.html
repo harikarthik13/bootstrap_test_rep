@@ -32,7 +32,7 @@
 
     #best {
       color: #a9b33b;
-      font-family: "00819";
+      font-family: 'regular';
     }
 
     #pre {
@@ -47,6 +47,11 @@
       font-weight: 700;
       font-family: "Quicksand";
       text-align: center;
+    }
+
+    @font-face {
+      font-family: regular;
+      src: url(ASSETS/fonts/00819\ Regular.ttf);
     }
   </style>
 </head>
@@ -64,60 +69,72 @@
           </a>
         </div>
         <!-- toggle button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-          aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        <button class="navbar-toggler navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
         <!-- navbar contents -->
-        <div class="collapse navbar-collapse ms-5" id="navcontent">
-          <ul class="navbar-nav ms-auto mb-2 ">
-            <li class="nav-item">
-              <a class="nav-link  text-white" id="home" href="#">HOME</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" id="plan" href="#">PLANS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" id="learn" href="#">LEARN MORE</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" id="widget" href="#">WIDGET</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" id="contact" href="#">CONTACT US</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" id="francais" href="#">FRANÇAIS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" id="log" href="#">LOG IN</a>
-            </li>
-            <!-- button -->
-            <li class="nav-item">
-              <button class="border-0 mt-1 ms-2 ps-2 pe-2 pt-1 pb-1 text-white" id="button" type="submit">GET THE
-                DEAL</button>
-            </li>
-          </ul>
-        </div>
-      </nav>
+        <div class="col-6 col-sm-3 col-md-3 col-lg-9 col-xl-8">
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#" id="home_id">HOME</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#" id="plan_id">PLANS</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#" id="lm">
+                  LEARN MORE
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#" id="ab">
+                  WIDGET
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link " href="#" id="contact_id">CONTACT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#" id="fra">FRANCAIS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#" id="lg">LOGIN</a>
+              </li>
+            
+        <!-- button -->
+        <li class="nav-item">
+          <button class="border-0 mt-1 ms-2 ps-2 pe-2 pt-1 pb-1 text-white" id="button" type="submit">GET THE
+            DEAL</button>
+        </li>
+        </ul>
     </div>
-    <div class="row" style="height:500px;">
-      <div class="col-6 col-sm-6 col-md-6 col-lg-6 ms-5 mt-5">
-        <p class="h1" id="best">The Best</p>
-        <pre id="pre">
+    </div>
+    </nav>
+  </div>
+  <div class="row" style="height:500px;">
+    <div class="col-6 col-sm-6 col-md-6 col-lg-6 ms-5 mt-5">
+      <p class="h1" id="best">The Best</p>
+      <pre id="pre">
 REAL ESTATE ANALYSIS 
 SOFTWARE IN NORTH AMERICA</pre>
-        <button class="border-0 ps-2 pe-2 pt-1 pb-1 text-white" id="button" type="submit">START NOW</button>
-      </div>
-
-      <div class="col-6 col-sm-6 col-md-6 col-lg-6">
-
-      </div>
+      <button class="border-0 ps-2 pe-2 pt-1 pb-1 text-white" id="button" type="submit">START NOW</button>
     </div>
+
+    <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+
+    </div>
+  </div>
   </div>
   <div class="container-fluid">
     <div class="row justify-content-center">
-      <pre class="col-4 col-sm-4 col-md-4 col-lg-4  ms-5 mt-3" id="pre1">
+      <pre class="col-10 col-sm-8 col-md-6 col-lg-4  ms-5 mt-3" id="pre1">
       TO MAKE AN INFORMED DECISION WHEN
        BUYING OR PURCHASING AN INCOME
                   PROPERTY ! 
